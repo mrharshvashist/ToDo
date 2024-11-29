@@ -1,0 +1,14 @@
+ul > li:has(input:checked) {
+    text-decoration: line-through;
+}
+button {
+    display: none;
+    text-decoration: none !important;
+    
+}
+ul li:has(input:checked) button {
+    display: inline;
+}
+#add-btn {
+    display: inline;
+}
